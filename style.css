@@ -13,7 +13,7 @@ body {
    
 }
 .content{
-    border:1px solid blue;
+   
     position: relative;
     overflow-x:hidden;
     width: 100vw;
@@ -22,12 +22,12 @@ body {
 }
 
 .containerone{
-    border:1px solid red;
+    
     width: 80%;
     margin:auto;  
 }
 .header{ 
-    border:1px solid red;
+    
     width:80%;
     display: flex;
     justify-content: space-between;
@@ -65,7 +65,7 @@ body {
     font-family: Plus Jakarta Sans;
     margin-top: 26px;
     color: #13183F;
-    border:1px solid red;
+    
 
 }
 .ptwo{
@@ -74,7 +74,7 @@ body {
     line-height: 1.62em;
     margin-top: 26px;
     color: #83869A;
-    border:1px solid red;
+   
 }
 
 .info button {
@@ -91,16 +91,14 @@ body {
     margin-bottom: 28px;
 }
 .hero-image-container{
-    border:1px solid black;
+   
     width: 100%;
     margin: 0 auto;
     
 }
-.hero-image-wrapper{
-    border: 1px solid yellow;
-}
+
 .hero-image-container img{
-    border:1px solid red;
+    
     width:100%;
    
 }
@@ -110,7 +108,7 @@ body {
 
 
 .section{
-    border: 1px solid red;
+    
     padding:0;
    
     width:100vw;
@@ -119,7 +117,7 @@ body {
 }
 .grid-container {
     width: 80%;
-    border: 1px solid blue;
+    
     margin:auto;
     padding:auto;
     align-items: center;
@@ -219,7 +217,7 @@ article.features {
 
 }
 .footer-container{
-    border: 1px solid red;
+  
     width: 80%;
     margin:auto; 
     display: flex;
@@ -240,7 +238,7 @@ article.features {
 @media (min-width: 768px){
     .content{
         width: 100vw;
-        border: 1px solid yellow;
+     
         overflow-x: hidden;
     }
    
@@ -256,18 +254,18 @@ article.features {
 
     }
     .containerone{
-        border: 1px solid blue;
+      
         display: flex;
         margin-left: 10%;
         align-items: center;
         width: 90vw;
-        border: 1px solid red;
+       
         
 
     }
      .containerone.info{
         width: 50%;
-        border: 5px green;
+       
 
     }
     
@@ -298,7 +296,7 @@ article.features {
     .hero-image-container{
         position: relative;
         width: 50%;
-        border:1px solid yellow;
+       
         
         z-index: 0;
     }
@@ -323,7 +321,7 @@ article.features {
        background-image:url("/images/Frame 13.png");
        background-repeat: no-repeat;
        position: absolute;
-       border:1px solid blue;
+      
        top: -350px;
        left:-200px;
       
@@ -404,14 +402,14 @@ article.features {
     .hero-image-container{
         position: relative;
         width: 100%;
-        border:1px solid yellow;
+      
     }
 
     .hero-image-wrapper{
        background-image:url("/images/Frame 2.png ");
        background-repeat: no-repeat;
        position: absolute;
-       border:1px solid blue;
+       
        min-height: 750px;
        top: -500px;
        left:25px;
@@ -456,7 +454,7 @@ article.features {
         margin-left: 30px;
     }
     article.courses{
-    position: relative;
+        position: relative;
 
     }
     article.courses p {
