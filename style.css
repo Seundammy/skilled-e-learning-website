@@ -40,13 +40,19 @@ body {
 }
 
 .header button{
-    
+    width: 140px;
+    height: 48px;
     font-size: 0.89rem;
     padding: 9px 24px;
     background-color: #13183F;
     border-radius: 28px;
+   border: none;
     color: white;
     
+}
+.header button:hover{
+    cursor: pointer;
+    background: #666CA3;
 }
  .header h1 {
   
@@ -78,7 +84,8 @@ body {
 }
 
 .info button {
-    padding: 9px 24px;
+    width: 167px;
+    height: 56px;
     background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
     color: white;
     font-size: 1rem;
@@ -89,6 +96,10 @@ body {
     line-height: 28px;
     margin-top: 26px;
     margin-bottom: 28px;
+}
+.info button:hover{
+    cursor:pointer;
+    opacity:50%;
 }
 .hero-image-container{
    
@@ -226,15 +237,22 @@ article.features {
     min-height: 120px;
     color:white;
 }
-.footerbtn {
+button.footerbtn {
     font-size: 0.89rem;
-    padding: 9px 24px;
+    width: 140px;
+    height: 48px;
     border-radius: 28px;
-    color:white;
     background: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
-    border: none; 
+    color: white;
+    border:none;
+   
     
 }
+button.footerbtn:hover{
+    cursor: pointer;
+    opacity:50%;
+}
+
 @media (min-width: 768px){
     .content{
         width: 100vw;
@@ -251,6 +269,10 @@ article.features {
     .navbar button{
         z-index: 1;
 
+    }
+    .header button:hover{
+        cursor: pointer;
+        background: #666CA3;
     }
     .containerone{
       
@@ -369,6 +391,16 @@ article.features {
     }
     .navbar button{
         margin-right: 50px;
+        width:167px;
+        height: 53px;
+        font-size: 18px;
+        font-weight: bold;}
+
+    .header button:hover{
+        cursor: pointer;
+        background: #666CA3;
+        
+        
     }
     .pone {
         width:90%;
@@ -388,8 +420,10 @@ article.features {
         width:90%;
     }
     .info button {
-        width: 175.4px;
+        width: 167px;
         height: 63px;
+        font-size: 18px;
+        font-weight: bold;
     }
     
     .hero-image-container{
@@ -464,5 +498,11 @@ article.features {
         font-size: 1.12rem;
         width: 90%;
         margin-left: 30px;
+    }
+    button.footerbtn{
+        width:167px;
+        height: 53px;
+        font-size: 18px;
+        font-weight: bold;
     }
 }
